@@ -1,0 +1,136 @@
+/*HTML element properties*/
+h1 {
+  color: #000000;
+}
+body {
+  /*background-image: linear-gradient(to right top, #051937, #004d7a, #008793, #00bf72, #a8eb12);*/
+
+  background-color: #f5f5f5 !important;
+}
+/*class element properties*/
+.page-header {
+  border-bottom: 3px solid #000000;
+  padding-bottom: 1rem;
+}
+
+.card {
+  border: hidden;
+}
+
+.img-mw-200 {
+  max-width: 200px;
+}
+
+.fade-in-image-5 {
+    animation: fadeIn 5s;
+}
+
+.fade-in-image-6 {
+    animation: fadeIn 6s;
+}
+
+.fade-in-image-7 {
+    animation: fadeIn 7s;
+}
+
+.fs-4rem{
+  font-size: 4rem;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+/*sponning effect*/
+
+.rotating-image {
+  /*width: 100px;*/
+  /*height: 100px;*/
+  /*background-color: #0CB1C4;*/
+  animation-name: spin;
+  animation-duration: 5000ms;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  /* transform: rotate(3deg); */
+   /* transform: rotate(0.3rad);/ */
+   /* transform: rotate(3grad); */
+   /* transform: rotate(.03turn);  */
+}
+
+@keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@-moz-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@-webkit-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@-o-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+@-ms-keyframes spin {
+    from {
+        transform:rotate(0deg);
+    }
+    to {
+        transform:rotate(360deg);
+    }
+}
+
+/*shows border on hover*/
+.card-border-display:hover {
+  animation: fadeIn 7s;
+  border: hidden;
+  border-radius: 0.5rem!important;
+  background-color: #fff!important;
+  /*padding: 1rem!important;
+  margin-bottom: 3rem!important;*/
+  box-shadow: 0 1rem 3rem rgba(0,0,0,.175)!important;
+
+}
