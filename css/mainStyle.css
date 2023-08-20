@@ -37,6 +37,40 @@ body {
   font-size: 4rem;
 }
 
+.portfolio-avatar {
+  background-image: url('../images/PortfolioAvatar.png');
+  height: auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.html-logo {
+  background-image: url('../images/html_logo.png');
+  height: 8rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.css-logo {
+  background-image: url('../images/css_logo.png');
+  height: 8rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.js-logo {
+  background-image: url('../images/js_logo.png');
+  height: 8rem;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+
 @keyframes fadeIn {
   0% { opacity: 0; }
   100% { opacity: 1; }
